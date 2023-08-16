@@ -14,16 +14,16 @@ public class Primeracalculadora { //Encabezado de clase
 
 		Scanner lector = new Scanner (System.in);
 
-		System.out.println("Hola, escribe tu primer numero numeros");
+		System.out.println("Hola, escribe tu primer numero numero");
 
 		Num1 = lector.nextInt();
 
-		System.out.println("Hola, escribe tu primer numero numeros");
+		System.out.println("Hola, escribe tu primer numero numero");
 
 		Num2 = lector.nextInt();
 
 
-		suma_res = suma(Num1, Num2);
+		suma_res = sumar(Num1, Num2);
 		resta = Num1 - Num2;
 		multiplicacion = Num1 * Num2;
 		division = Num1 / Num2;
@@ -53,7 +53,7 @@ public class Primeracalculadora { //Encabezado de clase
 	* @param n2 int Debe ser un número entero cuya asignación ya haya ocurrido
 	* @return res int El resultado de suma_resr n1 y n2
 	*/
-	public static int suma(int n1, int n2) {
+	public static int sumar(int n1, int n2) {
 		int res;
 		res = n1 + n2;
 		return res;
